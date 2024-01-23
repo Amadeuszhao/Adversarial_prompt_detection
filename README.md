@@ -6,7 +6,7 @@ The goal of this project is to build a classifier that can detect adversarial in
 To achieve the project goal, we plan to follow the steps outlined below:
 
 - #### Data Collection: 
-I have already generate many different adversarial prompts with Llama2-7B(Llama-base) and Llama2-13B(Llama-large). For normal prompt, you can search for different LLM testing benchmark such as mt-bench(github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge%23mt-bench) or generate yourself.
+I have already generate many different adversarial prompts with Llama2-7B(Llama-base) and Llama2-13B(Llama-large) in the data foloder. For normal prompt, you can search for different LLM testing benchmark such as mt-bench(github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge%23mt-bench) or generate yourself.
 
 - #### Preprocessing: Follow the step in judgement.ipynb.
 Not all the adversarial prompts can jailbreak LLM. For example the below adversarial prompt 
