@@ -1,4 +1,7 @@
 # Adversarial_prompt_detection
+## Huggingface key
+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
+
 ## Goal
 The goal of this project is to build a classifier that can detect adversarial input prompts and normal input prompts using causality analysis. Additionally, we aim to investigate whether a classifier trained on Llama2-7B can effectively detect adversarial prompts for different language models such as Vicuna or GPT.
 
